@@ -38,8 +38,12 @@ threshold = 11
 cava.template = 'colors-cava'
 cava.target = '~/.config/cava/config'
 
-hypr.template = 'colors-hyprland.conf'
-hypr.target = '~/.config/hypr/sys/policy/wallust/wallust-hyprland.conf'
+# v55 之前
+# hypr.template = 'colors-hyprland.conf'
+# hypr.target = '~/.config/hypr/sys/policy/wallust/wallust-hyprland.conf'
+# v55 之后
+hypr.template = 'colors-hyprland.lua'
+hypr.target = '~/.config/hypr/sys/policy/wallust/wallust-hyprland.lua'
 
 rofi.template = 'colors-rofi.rasi'
 rofi.target = '~/.config/rofi/wallust/colors-rofi.rasi'
